@@ -142,3 +142,7 @@
 @media(max-width:700px){.example-measure{grid-template-columns:1fr;gap:6px;padding-top:16px;margin-top:16px}.working-model figcaption strong{font-size:20px;line-height:1.35}.core-intro>strong{margin-bottom:10px}.work-steps strong{font-size:18px}.work-steps p{font-size:15px;line-height:1.6}}
 
 .hero-delivery{max-width:48ch;margin:20px 0 0;font-size:clamp(1rem,1.3vw,1.125rem);line-height:1.55}
+
+.build-timeline{margin-top:20px;font-size:16px;line-height:1.5;color:var(--accent)}.build-timeline strong,.build-timeline span{display:block}.build-timeline span{font-size:14px;margin-top:4px}
+
+.prototype-commitment p+p{margin-top:12px}
