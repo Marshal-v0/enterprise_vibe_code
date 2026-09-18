@@ -17,7 +17,8 @@ Open http://localhost:8000. No build step, package installation, or backend is r
 ## Files
 
 - `index.html`: page content, navigation, and inline SVG diagrams.
-- `refined.css`: responsive styles and self-hosted Archivo font declaration.
+- `refined.css`: editable responsive styles and self-hosted Archivo font declaration.
+- `refined.<version>.css`: versioned copy linked by the page to avoid stale browser styling. When changing CSS, copy the updated stylesheet to a new versioned filename and update the link in `index.html`.
 - `assets/`: Archivo font, its SIL Open Font License, and founder portraits.
 
 This directory is a standalone site, separate from the existing EVC Hugo website. Configure the production host with `sites/2690` as its publish directory. The site is served from the domain root. All asset paths are relative. The HQ preview badge and internal project files are excluded.
