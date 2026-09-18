@@ -140,3 +140,5 @@
 /* Make the implementation promise concrete inside the existing diagram and delivery path. */
 .core-intro>strong{display:block;font-weight:700;margin-bottom:10px}.working-model figcaption strong{max-width:42ch;margin-inline:auto;text-wrap:balance}.example-measure{display:grid;grid-template-columns:1fr 2fr;gap:24px;padding-top:16px;margin-top:16px;border-top:1px solid var(--line)}.example-measure h3{font-size:16px;line-height:1.5;letter-spacing:-.02em}.example-measure p{font-size:15px;max-width:70ch}
 @media(max-width:700px){.example-measure{grid-template-columns:1fr;gap:6px;padding-top:16px;margin-top:16px}.working-model figcaption strong{font-size:20px;line-height:1.35}.core-intro>strong{margin-bottom:10px}.work-steps strong{font-size:18px}.work-steps p{font-size:15px;line-height:1.6}}
+
+.hero-delivery{max-width:48ch;margin:20px 0 0;font-size:clamp(1rem,1.3vw,1.125rem);line-height:1.55}
