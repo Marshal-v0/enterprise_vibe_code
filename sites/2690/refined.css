@@ -155,3 +155,8 @@
 
 .prototype-commitment{background:var(--panel);border-top:0;padding:24px;column-gap:40px}.prototype-commitment h3{font-size:22px}.prototype-commitment strong{font-weight:700}
 @media(max-width:700px){.prototype-commitment{padding:22px 20px;gap:16px}.prototype-commitment h3{font-size:21px}}
+
+/* Visible buying answers, followed by the booking section and a short footer story. */
+.buying-questions{padding-block:48px 56px;border-top:1px solid var(--line)}.buying-questions h2{font-size:36px;margin-bottom:32px}.question-list{margin:0;display:grid;gap:24px}.question-list>div{display:grid;grid-template-columns:300px minmax(0,1fr);gap:64px;border-top:1px solid var(--line);padding-top:24px}.question-list dt{font-size:20px;font-weight:700;line-height:1.35;letter-spacing:-.025em}.question-list dd{margin:0;max-width:65ch;font-size:16px;line-height:1.6}.question-list p+p{margin-top:12px}.site-footer .origin{border-top:0;padding-top:36px;padding-bottom:24px}.site-footer .origin h2{font-size:23px}.site-footer .footer{border-top:1px solid var(--line)}
+@media(min-width:701px) and (max-width:1000px){.question-list>div{grid-template-columns:230px minmax(0,1fr);gap:40px}}
+@media(max-width:700px){.buying-questions{padding-block:36px 40px}.buying-questions h2{font-size:31px;margin-bottom:24px}.question-list{gap:24px}.question-list>div{grid-template-columns:1fr;gap:12px;padding-top:20px}.question-list dt{font-size:20px}.question-list dd{font-size:15px}.site-footer .origin{padding-top:28px;padding-bottom:24px}}
